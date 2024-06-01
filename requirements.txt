@@ -1,0 +1,6 @@
+Flask==3.0.3
+Flask_Cors==4.0.1
+pgvector==0.1.6
+psycopg==3.1.19
+Requests==2.32.3
+sentence_transformers==2.7.0
