@@ -5,29 +5,36 @@ https://tcp-reads-targets-handbags.trycloudflare.com/
 # Tinkoff Bot
 Решение команды AWildSheepChase на Цифровой Прорыв Сезон ИИ ДФО 2024 Кейс 5 «Бот - Тинькофф»
 
-## Зависимости
-[ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/requirements.txt
-)
-## Работа с API [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/api)
+## [Зависимости](/requirements.txt)
 
-Запуск апишки [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/api/app.py)
-Делает запрос к Янекс GPT и получает контекстный ответ [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/api/model_answer.py)
-Объявление базы данных и её основных методов[ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/api/vector_db.py)
+## [Работа с API](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/api)
 
-## Создание эмбедингов и загрузка векторной БД [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/dataloader)
+Запуск апишки [app.py](/api/app.py)
 
-Создание таблиц БД [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/dataloader/create_db.py)
-Загрузка БД[ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/dataloader/data_loader_to_db.py)
-Объявление базы данных и её основных методов [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/api/vector_db.py)
-Используемые датасеты [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/dataloader/datasets)
+Делает запрос к Янекс GPT и получает контекстный ответ [model_answer.py](/api/model_answer.py)
 
-## Создание эмбедингов и загрузка векторной БД [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/frontend-demo)
+Объявление базы данных и её основных методов[vector_db.py](/api/vector_db.py)
 
-Файл разметки интерфейса [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/frontend-demo/index.html)
-Скрипт интерфейса [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/frontend-demo/script.js)
-Файл со стилями к интерфейсу [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/frontend-demo/style.css)
+## [Создание эмбедингов и загрузка векторной БД](/dataloader)
 
-## Создание метрик [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/metrics)
+Создание таблиц БД [create_db.py](/dataloader/create_db.py)
 
-Создание валидационного датасета и сравнение ответов модели [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/metrics/calculate-metric.ipynb)
-Наши метрики [ссылка](https//:github.com/VladDyshlyuk/hacks-ai-tinkoff-bot-awildsheepchase/metrics/metrics-results.json)
+Загрузка БД[data_loader_to_db.py](/dataloader/data_loader_to_db.py)
+
+Объявление базы данных и её основных методов [vector_db.py](/api/vector_db.py)
+
+Используемые датасеты [datasets](/dataloader/datasets)
+
+## [Создание эмбедингов и загрузка векторной БД](/frontend-demo)
+
+Файл разметки интерфейса [index.html](/frontend-demo/index.html)
+
+Скрипт интерфейса [script.js](/frontend-demo/script.js)
+
+Файл со стилями к интерфейсу [style.css](/frontend-demo/style.css)
+
+## [Создание метрик](/metrics)
+
+Создание валидационного датасета и сравнение ответов модели [calculate-metric.ipyn](/metrics/calculate-metric.ipynb)
+
+Наши метрики [metrics-results.json](/metrics/metrics-results.json)
