@@ -1,5 +1,4 @@
-##API Endpoint 
-https://joshua-postal-variation-theater.trycloudflare.com/
+\
 
 # Tinkoff Bot
 Решение команды AWildSheepChase на Цифровой Прорыв Сезон ИИ ДФО 2024 Кейс 5 «Бот - Тинькофф»
